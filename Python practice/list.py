@@ -1,0 +1,11 @@
+name = ['shiro','ginger','memo','amber']
+name.append('lily')
+name.insert(0,'dino')
+name.remove('ginger')
+name.pop()
+name.sort()
+name.reverse()
+count = name.count('lily')
+name.clear()
+print(name)
+print(count)
